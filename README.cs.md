@@ -9,6 +9,9 @@ a zjistěte, kterou část počítače se nepodařilo zkontrolovat.
 [English](README.md) · [Web](https://www.permisight.com/) ·
 [Stažení a stav platforem](DOWNLOADS.md) · [První kontrola](docs/QUICKSTART.cs.md)
 
+[Nahlásit chybu nebo chybějící nástroj](https://github.com/petrvesely1969/PermiSight-Community/issues/new/choose) ·
+[Dotazy a nápady](https://github.com/petrvesely1969/PermiSight-Community/discussions)
+
 ![Úvodní obrazovka PermiSightu na Macu v angličtině](assets/mac-overview-en.png)
 
 ## Co s aplikací získáte

@@ -9,6 +9,9 @@ not be checked.
 [Česky](README.cs.md) · [Website](https://www.permisight.com/) ·
 [Downloads and platform status](DOWNLOADS.md) · [Quick start](docs/QUICKSTART.en.md)
 
+[Report a bug or missing tool](https://github.com/petrvesely1969/PermiSight-Community/issues/new/choose) ·
+[Questions and ideas](https://github.com/petrvesely1969/PermiSight-Community/discussions)
+
 ![PermiSight overview on macOS](assets/mac-overview-en.png)
 
 ## What you can do
