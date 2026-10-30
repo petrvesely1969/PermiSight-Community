@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas / Dotazy a nápady
+    url: https://github.com/petrvesely1969/PermiSight-Community/discussions
+    about: Public conversations in English or Czech. No raw reports or confidential data.
+  - name: Private support / Soukromá podpora
+    url: https://www.permisight.com/support/
+    about: Confidential issues and help outside public GitHub posts. Důvěrná hlášení řešte přes podporu.

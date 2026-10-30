@@ -1,0 +1,74 @@
+name: Missing or incorrect detection / Chybějící či nesprávný nález
+description: Help us identify a missed tool, wrong identity or incorrect state. Česky i anglicky.
+title: "[Detection] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Give a minimal public example, not an export or executable attachment.
+        Uveďte stručný veřejný příklad. Celé reporty, soubory programu ani tajné nastavení sem nepatří.
+        Private help: https://www.permisight.com/support/.
+  - type: input
+    id: tool
+    attributes:
+      label: Tool name and version / Název a verze nástroje
+    validations:
+      required: true
+  - type: input
+    id: vendor-url
+    attributes:
+      label: Public vendor page, if known / Veřejná stránka dodavatele, pokud ji znáte
+      description: Only a public product page; no private repository or token-bearing link.
+    validations:
+      required: false
+  - type: dropdown
+    id: component
+    attributes:
+      label: Kind of component / Typ součásti
+      options:
+        - Application / Aplikace
+        - Local model file / Soubor místního modelu
+        - Editor or browser extension / Rozšíření editoru či prohlížeče
+        - CLI tool or local service / CLI nástroj nebo místní služba
+        - AI feature in an application / AI funkce v aplikaci
+        - Other or unknown / Jiné nebo nevím
+    validations:
+      required: true
+  - type: dropdown
+    id: state
+    attributes:
+      label: State during the check / Stav během kontroly
+      options:
+        - Installed, stopped / Nainstalováno, neběží
+        - Installed, running / Nainstalováno, spuštěno
+        - Uninstalled, traces remain / Odinstalováno, zůstaly stopy
+        - Unknown / Nevím
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS, PermiSight version and build / Systém, verze a sestavení PermiSightu
+      description: Include architecture if known; no device or installation identifier.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual finding / Očekávaný a skutečný nález
+      description: Mention a custom folder or port if relevant, without an exact private path. Do not paste configuration files.
+    validations:
+      required: true
+  - type: input
+    id: catalog
+    attributes:
+      label: Catalog version, if known / Verze katalogu, pokud ji znáte
+    validations:
+      required: false
+  - type: checkboxes
+    id: public-sharing
+    attributes:
+      label: Before posting / Před odesláním
+      options:
+        - label: This description contains no personal data, secrets or raw report. / Popis neobsahuje osobní údaje, tajné informace ani celý report.
+          required: true

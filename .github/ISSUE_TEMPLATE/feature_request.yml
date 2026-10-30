@@ -1,0 +1,40 @@
+name: Feature request / Návrh funkce
+description: Explain a concrete improvement and the problem it would solve. Česky i anglicky.
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For open-ended questions, use Discussions. Concrete requests belong here.
+        Otevřené dotazy patří do Discussions, konkrétní návrh můžete napsat zde.
+        Everything posted here is public; keep examples free of personal data and secrets.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would this help you do? / Co vám to pomůže vyřešit?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement / Navrhované zlepšení
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / Platforma
+      options:
+        - Both Windows and macOS / Windows i macOS
+        - Windows
+        - macOS
+        - Documentation or community / Dokumentace nebo komunita
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-sharing
+    attributes:
+      label: Before posting / Před odesláním
+      options:
+        - label: I removed personal data, credentials and raw reports. / Odstranil(a) jsem osobní údaje, přístupové údaje a celé reporty.
+          required: true

@@ -1,0 +1,71 @@
+name: Bug report / Chyba aplikace
+description: Describe a reproducible problem. English and Czech are welcome.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is public. Do not paste raw reports, private paths, credentials or personal data.
+        Toto hlášení je veřejné. Nevkládejte celé reporty, osobní údaje ani tajné informace.
+        For confidential matters, use https://www.permisight.com/support/.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / Platforma
+      options:
+        - Windows
+        - macOS
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: PermiSight version and build / Verze a sestavení
+      description: Copy from the app's version information, or say unknown. No installation identifier.
+      placeholder: "1.0.1 (20), or 1.0.1 / build 6507"
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version and architecture / Verze systému a architektura
+      placeholder: "Windows 11 x64, or macOS 15 Apple Silicon; unknown is fine"
+    validations:
+      required: true
+  - type: dropdown
+    id: channel
+    attributes:
+      label: Installation source / Odkud máte aplikaci
+      options:
+        - Microsoft Store
+        - Mac App Store
+        - Official website beta / Beta z oficiálního webu
+        - Other or unknown / Jiné nebo nevím
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and actual result / Postup a skutečný výsledek
+      description: Short numbered steps and the message you see. Remove private data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result / Očekávaný výsledek
+    validations:
+      required: true
+  - type: input
+    id: catalog
+    attributes:
+      label: Catalog version, if known / Verze katalogu, pokud ji znáte
+    validations:
+      required: false
+  - type: checkboxes
+    id: public-sharing
+    attributes:
+      label: Before posting / Před odesláním
+      options:
+        - label: I checked the text for personal data and secrets; it contains no raw scan report. / Zkontroloval(a) jsem osobní a tajné údaje a nevkládám celý report.
+          required: true

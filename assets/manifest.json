@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "product": "PermiSight",
+  "images": [
+    {
+      "file": "windows-applications-en.png",
+      "sha256": "7e47512f1e04e67b2b39c0fcc7c3171ed360516f473461c37c490dc81a6eda2b",
+      "bytes": 116537,
+      "width": 1426,
+      "height": 1017,
+      "platform": "Windows 11 x64",
+      "capturedOn": "2026-10-26",
+      "version": "1.0.1",
+      "build": "6507",
+      "language": "en",
+      "pixelContentAndWarningsUnchanged": true
+    },
+    {
+      "file": "windows-models-en.png",
+      "sha256": "7f60eeb0aa90678f1a95e9d3d61cb1d73d13b5a5de9a1c9baf3fa15a26ebaa23",
+      "bytes": 76317,
+      "width": 1426,
+      "height": 1017,
+      "platform": "Windows 11 x64",
+      "capturedOn": "2026-10-26",
+      "version": "1.0.1",
+      "build": "6507",
+      "language": "en",
+      "pixelContentAndWarningsUnchanged": true
+    },
+    {
+      "file": "mac-overview-en.png",
+      "sha256": "5d81c6d40c65efdd3e415288374058067143b5ae2c320d3a87435f3f2fccac28",
+      "bytes": 749197,
+      "width": 2880,
+      "height": 1800,
+      "platform": "macOS",
+      "capturedOn": "2026-10-30",
+      "version": "1.0.1",
+      "build": "19",
+      "language": "en",
+      "pixelContentAndWarningsUnchanged": true
+    }
+  ]
+}

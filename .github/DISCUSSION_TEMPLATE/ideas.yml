@@ -1,0 +1,30 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        What would make PermiSight more useful to you? English and Czech are welcome.
+        Co by vám v PermiSightu pomohlo? Pište česky nebo anglicky.
+        This discussion is public. Do not include raw reports, personal data or secrets.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea and its benefit / Nápad a jeho přínos
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform / Platforma
+      options:
+        - Both platforms / Obě platformy
+        - Windows
+        - macOS
+        - Community or documentation / Komunita nebo dokumentace
+  - type: checkboxes
+    id: public-sharing
+    attributes:
+      label: Public example / Veřejný příklad
+      options:
+        - label: I removed personal data, credentials and raw reports. / Odstranil(a) jsem osobní údaje, přístupové údaje a celé reporty.
+          required: true

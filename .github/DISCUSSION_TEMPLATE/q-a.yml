@@ -1,0 +1,26 @@
+title: "[Question] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask about using PermiSight or interpreting a finding. English and Czech are welcome.
+        Zeptejte se na ovládání nebo význam nálezu. Příspěvek je veřejný.
+        For a reproducible bug, use Issues. For confidential matters, use https://www.permisight.com/support/.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question / Váš dotaz
+      description: Keep examples free of private paths, identifiers, credentials and raw reports.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS and PermiSight version, if relevant / Systém a verze PermiSightu, pokud se dotazu týkají
+  - type: checkboxes
+    id: public-sharing
+    attributes:
+      label: Before posting / Před odesláním
+      options:
+        - label: My question contains no personal data, secrets or raw report. / Dotaz neobsahuje osobní údaje, tajné informace ani celý report.
+          required: true
